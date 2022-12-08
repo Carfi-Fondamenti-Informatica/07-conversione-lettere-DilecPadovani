@@ -15,6 +15,8 @@ char convert(char letter){
   return letter + 32; 
 } 
 if (  letter >= 97   && letter <= 122 )
+{
  return letter - 32; 
+}
 
 }
